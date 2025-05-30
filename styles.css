@@ -1,0 +1,44 @@
+ 
+ * {
+  background-color: rgba(179, 185, 166, 0.128);
+ }
+ 
+ header {
+            background-color: blue;
+            color: yellow;
+            background-image: url(image/fantasy-2543658_1280.jpg);
+            padding: 20px;
+            background-size: cover;
+        }
+
+        li {
+          list-style: none;
+        }
+
+        a {
+          text-decoration: none;
+        }
+        nav li a {
+          color: red;
+          font-size: 30px;
+        }
+
+        nav li a::before {
+          content:"☕" ;
+        }
+    
+  .borda-redonda {
+    border-radius: 50px;
+  }
+  section {
+    border: 2px solid black;
+  }
+
+   img {
+    border: 10px solid blue;
+  }
+  
+  a:hover .borda-redonda {
+    border: 10px solid yellow;
+  }
+
