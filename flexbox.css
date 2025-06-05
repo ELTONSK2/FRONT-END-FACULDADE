@@ -1,0 +1,40 @@
+.principal {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    width: 700px;
+
+  
+    
+    
+}
+
+.principal > div {
+    background-color: orange;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.principal > div:nth-child(1) {
+
+}
+.principal > div:nth-child(2) {
+   
+}   
+.principal > div:nth-child(3) {
+    flex-grow: 1;
+    flex-shrink: 0;
+   
+}.principal > div:nth-child(4) {
+   
+
+} 
