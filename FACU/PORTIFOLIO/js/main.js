@@ -6,10 +6,10 @@ const navItems = document.querySelectorAll('.nav-links li');
 burger.addEventListener('click', () => {
   // Alternar menu
   navLinks.classList.toggle('active');
-  
+
   // Animação do burger
   burger.classList.toggle('toggle');
-  
+
   // Desabilitar scroll quando o menu está aberto
   document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : 'auto';
 });
@@ -24,7 +24,7 @@ navItems.forEach(item => {
 });
 
 // Botão voltar ao topo
-window.onscroll = function() {
+window.onscroll = function () {
   const btnTopo = document.getElementById('btnTopo');
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     btnTopo.style.display = 'block';

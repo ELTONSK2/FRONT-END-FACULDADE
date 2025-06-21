@@ -214,13 +214,19 @@ footer {
 
 /* Animações */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .hero-content {
   animation: fadeIn 1s ease-in;
 }
+
 /* Estilos para a página de contato */
 .contact-hero {
   padding: 10rem 5% 5rem;
@@ -296,6 +302,7 @@ footer {
   margin-bottom: 1.5rem;
   color: var(--gray);
 }
+
 /* Estilos para a página de projetos */
 .projects-main {
   padding: 8rem 5% 5rem;
@@ -451,7 +458,7 @@ footer {
   .projects-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .section-header h1 {
     font-size: 2.5rem;
   }
@@ -551,11 +558,11 @@ footer {
   .contact-container {
     flex-direction: column;
   }
-  
+
   .contact-content {
     text-align: center;
   }
-  
+
   .contact-content p {
     margin-left: auto;
     margin-right: auto;
@@ -566,11 +573,12 @@ footer {
   .contact-methods {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-form {
     padding: 1.5rem;
   }
 }
+
 /* Estilos para a página Sobre */
 .about-section {
   padding: 8rem 5% 5rem;
@@ -782,33 +790,34 @@ footer {
   .about-hero {
     flex-direction: column;
   }
-  
+
   .about-content {
     text-align: center;
     margin-bottom: 2rem;
   }
-  
+
   .about-content p {
     margin: 0 auto;
   }
-  
+
   .bio-timeline {
     padding-left: 30px;
   }
-  
+
   .timeline-date {
     left: -30px;
     width: 30px;
     height: 30px;
     font-size: 0.8rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
 }
 
 @media (max-width: 480px) {
+
   .skills-grid,
   .education-cards {
     grid-template-columns: 1fr;
